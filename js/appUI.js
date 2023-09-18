@@ -318,7 +318,7 @@ function renderBookmark(bookmark) {
                 <span class="bookmarkTitle vertical-align">${bookmark.Title}</span>
             </div>
 
-            <a href="${bookmark.Url}">${bookmark.Categorie}</a>
+            <a target="_blank" href="${bookmark.Url}">${bookmark.Categorie}</a>
             
             </div>
             <div class="bookmarkCommandPanel">
